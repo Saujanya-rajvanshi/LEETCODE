@@ -4,6 +4,10 @@
 
 - [add digits](#add-digits)
 
+## streaks questions
+
+- [1980. find unique binary string](https://chatgpt.com/s/t_69ad3e966dc48191af5410b3d3608058)
+
 ### add digits 
 ```cpp
 int addDigits(int num) {
