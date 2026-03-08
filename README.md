@@ -36,8 +36,7 @@ int addDigits(int num) {
 * This property is used in error detection in ancient math called "casting out nines.
 * it’s a quick verification trick, not a proof.
 * works for addition, subtraction, and multiplication because all of them preserve the mod 9 property.
-- [example](https://chatgpt.com/c/69950e0f-4d1c-8322-a342-9eac854a0dda)
-
+- [example](https://chatgpt.com/s/t_69ad3acc5bb0819180638bac59a3a53b)
 
 
 
