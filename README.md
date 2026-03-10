@@ -7,6 +7,7 @@
 ## streaks questions
 
 - [1980. find unique binary string](https://chatgpt.com/s/t_69ad3e966dc48191af5410b3d3608058)
+- [3130. find all possible stable binary array ii](https://chatgpt.com/s/t_69b021b15d54819195784b507ebf560a)
 
 ### add digits 
 ```cpp
