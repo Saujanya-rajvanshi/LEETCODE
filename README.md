@@ -2,7 +2,34 @@
 
 ## questions solved
 
-- [add digits](#add-digits)
+
+### basic maths codes 
+- [1006. clumsy factorial](https://leetcode.com/problems/clumsy-factorial/submissions/1953926003/)
+- [9. palindrom number](https://leetcode.com/problems/palindrome-number/description/)
+- [258. Add Digits](https://leetcode.com/problems/add-digits/description/)
+- [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
+- [1523. Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/description/)
+- [231. Power of Two](https://leetcode.com/problems/power-of-two/description/)
+- [326. Power of Three](https://leetcode.com/problems/power-of-three/description/)
+
+### recursion 
+
+### hashing 
+
+### sorting 
+- [75. sort colors](https://leetcode.com/problems/sort-colors/description/)
+
+### searching 
+
+### arrays 
+- [1. two sum](https://leetcode.com/problems/two-sum/description/)
+
+
+### binary search
+- [704. binary search](https://leetcode.com/problems/binary-search/description/)
+
+### string
+
 
 ## streaks questions
 
@@ -12,6 +39,8 @@
 - [1727. largest submatrix with rearrangment](https://chatgpt.com/s/t_69b9ed0cf6348191a49263b11d337d44)
 - [3070. count submatrix with top left-element and sum less than k](https://chatgpt.com/s/t_69b9ee014e3c81918637a3cb9c5f18c2)
 - [3212. Count Submatrices With Equal Frequency of X and Y](https://chatgpt.com/s/t_69bc10b88f2c81919d927e722c8cb5fb)
+- [3567. Minimum Absolute Difference in Sliding Submatrix](https://chatgpt.com/s/t_69bd5f2ba50c81918ca7a8b0c46ace83)
+
 
 ### add digits 
 ```cpp
