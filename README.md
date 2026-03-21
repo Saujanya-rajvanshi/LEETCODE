@@ -13,6 +13,7 @@
 - [326. Power of Three](https://leetcode.com/problems/power-of-three/description/)
 - [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/submissions/1954434965/)
 - [202. Happy Number](https://leetcode.com/problems/happy-number/description/)
+- [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
 
 
 
