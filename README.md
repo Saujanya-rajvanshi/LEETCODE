@@ -11,9 +11,7 @@
 - [1523. Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/description/)
 - [231. Power of Two](https://leetcode.com/problems/power-of-two/description/)
 - [326. Power of Three](https://leetcode.com/problems/power-of-three/description/)
-- [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/submissions/1954434965/)
 - [202. Happy Number](https://leetcode.com/problems/happy-number/description/)
-- [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
 
 
 
@@ -33,6 +31,9 @@
 
 ### binary search
 - [704. binary search](https://leetcode.com/problems/binary-search/description/)
+- [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/submissions/1954434965/)
+- [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
+
 
 ### string
 
