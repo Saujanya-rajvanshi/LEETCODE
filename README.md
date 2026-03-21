@@ -11,6 +11,11 @@
 - [1523. Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/description/)
 - [231. Power of Two](https://leetcode.com/problems/power-of-two/description/)
 - [326. Power of Three](https://leetcode.com/problems/power-of-three/description/)
+- [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/submissions/1954434965/)
+- [202. Happy Number](https://leetcode.com/problems/happy-number/description/)
+
+
+
 
 ### recursion 
 
@@ -40,6 +45,7 @@
 - [3070. count submatrix with top left-element and sum less than k](https://chatgpt.com/s/t_69b9ee014e3c81918637a3cb9c5f18c2)
 - [3212. Count Submatrices With Equal Frequency of X and Y](https://chatgpt.com/s/t_69bc10b88f2c81919d927e722c8cb5fb)
 - [3567. Minimum Absolute Difference in Sliding Submatrix](https://chatgpt.com/s/t_69bd5f2ba50c81918ca7a8b0c46ace83)
+- [3643. Flip Square Submatrix Vertically](https://chatgpt.com/s/t_69be6658ba94819189db2b37c201ca07)
 
 
 ### add digits 
