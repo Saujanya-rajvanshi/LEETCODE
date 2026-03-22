@@ -4,14 +4,73 @@
 
 
 ### basic maths codes 
-- [1006. clumsy factorial](https://leetcode.com/problems/clumsy-factorial/submissions/1953926003/)
-- [9. palindrom number](https://leetcode.com/problems/palindrome-number/description/)
-- [258. Add Digits](https://leetcode.com/problems/add-digits/description/)
+- [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)  digit extraction
+- [9. palindrom number](https://leetcode.com/problems/palindrome-number/) reverse / compare
+- [66. Plus One](https://leetcode.com/problems/plus-one/) carry handling
+- [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) basic math / binary search
+- [50. Pow(x, n)]() fast exponentiation
+- [258. Add Digits]() digit sum / math trick
+- [202. Happy Number]()  digit square sum
+- [263. Ugly Number]()  prime factor check (2,3,5)
+- [204. Count Primes]() sieve of eratosthenes
+- [326. Power of Three]() math / division
+- [231. Power of Two]() bit / math
+- [342. Power of Four]() math + bit
+- [367. Valid Perfect Square]() binary search / math
+- [400. Nth Digit]() number pattern
+- [172. Factorial Trailing Zeroes]() count 5s
+- [1006. clumsy factorial](https://leetcode.com/problems/clumsy-factorial/)
+- [258. Add Digits](https://leetcode.com/problems/add-digits/) 
 - [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
-- [1523. Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/description/)
-- [231. Power of Two](https://leetcode.com/problems/power-of-two/description/)
-- [326. Power of Three](https://leetcode.com/problems/power-of-three/description/)
-- [202. Happy Number](https://leetcode.com/problems/happy-number/description/)
+- [1523. Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)
+- [231. Power of Two](https://leetcode.com/problems/power-of-two/)
+- [326. Power of Three](https://leetcode.com/problems/power-of-three/)
+- [202. Happy Number](https://leetcode.com/problems/happy-number/)
+
+
+## importants
+
+### digit extraction : 
+```
+digit = x % 10
+x = x / 10
+rev = rev * 10 + digit
+```
+
+### if overflow
+1. You are building a number digit by digit
+2. The problem has a range constraint
+3. You are using only int (32-bit)
+
+add this :
+```
+if(rev > INT_MAX/10 || rev < INT_MIN/10) return 0;
+```
+
+## reversing an number by making string 
+```
+string s = to_string(x);
+string rev = s;
+reverse(rev.begin(), rev.end());
+```
+
+## carry handling
+```
+digits.insert(digits.begin(), 1);
+```
+
+## sqrt
+```
+int i = 1;
+while(i <= x / i){
+    i++;
+}
+```
+
+
+
+
+
 
 
 
@@ -48,6 +107,7 @@
 - [3212. Count Submatrices With Equal Frequency of X and Y](https://chatgpt.com/s/t_69bc10b88f2c81919d927e722c8cb5fb)
 - [3567. Minimum Absolute Difference in Sliding Submatrix](https://chatgpt.com/s/t_69bd5f2ba50c81918ca7a8b0c46ace83)
 - [3643. Flip Square Submatrix Vertically](https://chatgpt.com/s/t_69be6658ba94819189db2b37c201ca07)
+- [1886. Determine Whether Matrix Can Be Obtained By Rotation](https://chatgpt.com/s/t_69bfc45d620c8191a6fe190131d2dcac)
 
 
 ### add digits 
