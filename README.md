@@ -67,6 +67,79 @@ while(i <= x / i){
 }
 ```
 
+## pow x,n 
+
+```
+class Solution {
+public:
+    double myPow(double x, int n) {
+        if(n == 0) return 1;
+
+        double real = x;
+
+        long long a = n;
+        if(n < 0){
+            n = -n;
+        }
+        for(int i = 1; i < n ;i++){
+            x = real*x;
+        }
+        if(a < 0){
+            return 1/x;
+        }
+    return x;
+    }
+};
+```
+```
+class Solution {
+public:
+    double myPow(double x, int n) {
+
+        long long pow = n;
+
+        if(pow < 0){
+            x = 1/x;
+            pow = -pow;
+        }
+
+        double ans = 1;
+
+        for(int i = 0; i < pow ;i++){
+            ans *= x;
+        }
+        
+    return ans;
+    }
+};
+```
+
+```cpp
+class Solution {
+public:
+    double myPow(double x, int n) {
+
+        long long pow = n;
+
+        if(pow < 0){
+            x = 1/x;
+            pow = -pow;
+        }
+
+        double ans = 1;
+
+        while(pow > 0){
+            if(pow % 2 == 1){   // odd
+                ans *= x;
+            }
+            x *= x;            // square
+            pow /= 2;
+        }
+        
+    return ans;
+    }
+};
+```
 
 
 
