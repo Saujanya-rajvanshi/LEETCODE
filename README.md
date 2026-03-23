@@ -108,6 +108,11 @@ while(i <= x / i){
 - [3567. Minimum Absolute Difference in Sliding Submatrix](https://chatgpt.com/s/t_69bd5f2ba50c81918ca7a8b0c46ace83)
 - [3643. Flip Square Submatrix Vertically](https://chatgpt.com/s/t_69be6658ba94819189db2b37c201ca07)
 - [1886. Determine Whether Matrix Can Be Obtained By Rotation](https://chatgpt.com/s/t_69bfc45d620c8191a6fe190131d2dcac)
+- [1594. Maximum Non Negative Product in a Matrix](https://chatgpt.com/s/t_69c08d2db74c8191ac5a8ac6f04970b5)
+
+
+
+
 
 
 ### add digits 
