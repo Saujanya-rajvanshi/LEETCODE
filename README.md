@@ -8,10 +8,10 @@
 - [9. palindrom number](https://leetcode.com/problems/palindrome-number/) reverse / compare
 - [66. Plus One](https://leetcode.com/problems/plus-one/) carry handling
 - [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) basic math / binary search
-- [50. Pow(x, n)]() fast exponentiation
-- [258. Add Digits]() digit sum / math trick
-- [202. Happy Number]()  digit square sum
-- [263. Ugly Number]()  prime factor check (2,3,5)
+- [50. Pow(x, n)](https://leetcode.com/problems/powx-n/description/) fast exponentiation
+- [258. Add Digits](https://leetcode.com/problems/add-digits/) digit sum / math trick
+- [202. Happy Number](https://leetcode.com/problems/happy-number/)  digit square sum
+- [263. Ugly Number](https://leetcode.com/problems/ugly-number/)  prime factor check (2,3,5)
 - [204. Count Primes]() sieve of eratosthenes
 - [326. Power of Three]() math / division
 - [231. Power of Two]() bit / math
@@ -141,6 +141,36 @@ public:
 };
 ```
 
+## add digit 
+
+use modulo nine work foe addition , mul etc
+```cpp
+        if(num == 0) return 0;   
+        return 1 + (num - 1) % 9; 
+```
+
+## digit square sum
+
+repeatedly transform number,  <br>
+Two possibilities: <br>
+reaches 1 → happy number <br>
+enters a cycle (loop) → never reaches 1 <- use set <br>
+
+```
+while(n != 1 && seen.find(n) == seen.end()) // Keep going until we reach 1 (happy number) && n is not in the set yet
+```
+
+## Ugly Number,  prime factor check (2,3,5)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -182,6 +212,7 @@ public:
 - [3643. Flip Square Submatrix Vertically](https://chatgpt.com/s/t_69be6658ba94819189db2b37c201ca07)
 - [1886. Determine Whether Matrix Can Be Obtained By Rotation](https://chatgpt.com/s/t_69bfc45d620c8191a6fe190131d2dcac)
 - [1594. Maximum Non Negative Product in a Matrix](https://chatgpt.com/s/t_69c08d2db74c8191ac5a8ac6f04970b5)
+- [2906. Construct Product Matrix](https://chatgpt.com/s/t_69c1db28a25c8191b9b3fb657810728c)
 
 
 
