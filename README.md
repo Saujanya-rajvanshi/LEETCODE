@@ -217,6 +217,7 @@ while(n != 1 && seen.find(n) == seen.end()) // Keep going until we reach 1 (happ
 - [1886. Determine Whether Matrix Can Be Obtained By Rotation](https://chatgpt.com/s/t_69bfc45d620c8191a6fe190131d2dcac)
 - [1594. Maximum Non Negative Product in a Matrix](https://chatgpt.com/s/t_69c08d2db74c8191ac5a8ac6f04970b5)
 - [2906. Construct Product Matrix](https://chatgpt.com/s/t_69c1db28a25c8191b9b3fb657810728c)
+- [3546. Equal Sum Grid Partition I](https://chatgpt.com/s/t_69c4058e503481919a321a9e750a33fa)
 
 
 
