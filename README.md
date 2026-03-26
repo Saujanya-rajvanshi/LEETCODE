@@ -13,10 +13,10 @@
 - [202. Happy Number](https://leetcode.com/problems/happy-number/)  digit square sum
 - [263. Ugly Number](https://leetcode.com/problems/ugly-number/)  prime factor check (2,3,5)
 - [204. Count Primes]() sieve of eratosthenes
-- [326. Power of Three]() math / division
-- [231. Power of Two]() bit / math
-- [342. Power of Four]() math + bit
-- [367. Valid Perfect Square]() binary search / math
+- [326. Power of Three](https://leetcode.com/problems/power-of-three/description/) math / division
+- [231. Power of Two](https://leetcode.com/problems/power-of-two/) bit / math
+- [342. Power of Four](https://leetcode.com/problems/power-of-four/) math + bit
+- [367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) binary search / math
 - [400. Nth Digit]() number pattern
 - [172. Factorial Trailing Zeroes]() count 5s
 - [1006. clumsy factorial](https://leetcode.com/problems/clumsy-factorial/)
@@ -170,11 +170,30 @@ while(n != 1 && seen.find(n) == seen.end()) // Keep going until we reach 1 (happ
         return n == 1;
 ```
 
+## if you want to check idf it gets inside the loop
+```
+bool is = true;
+            for(int j = 2; j < i; j++){
+                if(i%j == 0){
+                    is = false;
+                    break;
+```
+
+## count prime
 
 
+## if a number n is power of num 2/3/4
 
+```cpp
+int temp = n;
+        if(n <= 0) return false;
+        while(temp > 1){
+            if(temp%num != 0) return false;
+            temp = temp / num;
+        }
 
-
+    return true;
+```
 
 
 
@@ -218,7 +237,7 @@ while(n != 1 && seen.find(n) == seen.end()) // Keep going until we reach 1 (happ
 - [1594. Maximum Non Negative Product in a Matrix](https://chatgpt.com/s/t_69c08d2db74c8191ac5a8ac6f04970b5)
 - [2906. Construct Product Matrix](https://chatgpt.com/s/t_69c1db28a25c8191b9b3fb657810728c)
 - [3546. Equal Sum Grid Partition I](https://chatgpt.com/s/t_69c4058e503481919a321a9e750a33fa)
-
+- [3548. Equal Sum Grid Partition II](https://leetcode.com/problems/equal-sum-grid-partition-ii/submissions/1959530630/?envType=daily-question&envId=2026-03-26)
 
 
 
