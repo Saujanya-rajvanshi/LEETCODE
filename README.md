@@ -238,7 +238,7 @@ int temp = n;
 - [2906. Construct Product Matrix](https://chatgpt.com/s/t_69c1db28a25c8191b9b3fb657810728c)
 - [3546. Equal Sum Grid Partition I](https://chatgpt.com/s/t_69c4058e503481919a321a9e750a33fa)
 - [3548. Equal Sum Grid Partition II](https://leetcode.com/problems/equal-sum-grid-partition-ii/submissions/1959530630/?envType=daily-question&envId=2026-03-26)
-
+- [2946. Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/description/?envType=daily-question&envId=2026-03-27)
 
 
 
