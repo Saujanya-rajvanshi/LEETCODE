@@ -1,5 +1,7 @@
 # LEETCODE
 
+- [leetcode](https://leetcode.com/)
+
 ## questions solved
 - [basic maths codes](#basic-maths-codes)
 - [recursion](#recursion)
