@@ -1,6 +1,114 @@
 # LEETCODE
 
 ## questions solved
+- [basic maths codes](#basic-maths-codes)
+- [recursion](#recursion)
+
+
+
+### recursion 
+
+- [9. Palindrome Number](https://leetcode.com/search/?q=palindrom+number+)
+- [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
+- [231. Power of Two](https://leetcode.com/problems/power-of-two/)
+- [70. Climbing Stairs]()
+- [21. Merge Two Sorted Lists]()
+- [104. Maximum Depth of Binary Tree]()
+- [344. Reverse String]()
+- [100. Same Tree]()
+
+
+## Palindrome Number
+
+```cpp
+if (x < 0) return false;       
+string s = to_string(x);
+string rev = s;
+reverse(rev.begin(), rev.end());
+```
+
+
+
+
+
+
+### hashing 
+
+### sorting 
+- [75. sort colors](https://leetcode.com/problems/sort-colors/description/)
+
+### searching 
+
+### arrays 
+- [1. two sum](https://leetcode.com/problems/two-sum/description/)
+
+
+### binary search
+- [704. binary search](https://leetcode.com/problems/binary-search/description/)
+- [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/submissions/1954434965/)
+- [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
+
+
+### string
+
+
+## streaks questions
+
+- [1980. find unique binary string](https://chatgpt.com/s/t_69ad3e966dc48191af5410b3d3608058)
+- [3130. find all possible stable binary array ii](https://chatgpt.com/s/t_69b021b15d54819195784b507ebf560a)
+- [1878. gets the biggest rohmbus sum](https://chatgpt.com/s/t_69b803f127d8819188553008dc509628)
+- [1727. largest submatrix with rearrangment](https://chatgpt.com/s/t_69b9ed0cf6348191a49263b11d337d44)
+- [3070. count submatrix with top left-element and sum less than k](https://chatgpt.com/s/t_69b9ee014e3c81918637a3cb9c5f18c2)
+- [3212. Count Submatrices With Equal Frequency of X and Y](https://chatgpt.com/s/t_69bc10b88f2c81919d927e722c8cb5fb)
+- [3567. Minimum Absolute Difference in Sliding Submatrix](https://chatgpt.com/s/t_69bd5f2ba50c81918ca7a8b0c46ace83)
+- [3643. Flip Square Submatrix Vertically](https://chatgpt.com/s/t_69be6658ba94819189db2b37c201ca07)
+- [1886. Determine Whether Matrix Can Be Obtained By Rotation](https://chatgpt.com/s/t_69bfc45d620c8191a6fe190131d2dcac)
+- [1594. Maximum Non Negative Product in a Matrix](https://chatgpt.com/s/t_69c08d2db74c8191ac5a8ac6f04970b5)
+- [2906. Construct Product Matrix](https://chatgpt.com/s/t_69c1db28a25c8191b9b3fb657810728c)
+- [3546. Equal Sum Grid Partition I](https://chatgpt.com/s/t_69c4058e503481919a321a9e750a33fa)
+- [3548. Equal Sum Grid Partition II](https://leetcode.com/problems/equal-sum-grid-partition-ii/submissions/1959530630/?envType=daily-question&envId=2026-03-26)
+- [2946. Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/description/?envType=daily-question&envId=2026-03-27)
+- [3474. Lexicographically Smallest Generated String](https://leetcode.com/problems/lexicographically-smallest-generated-string/submissions/1964426636/?envType=daily-question&envId=2026-03-31)
+- [2839. Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/description/)
+- [2840. Check if Strings Can be Made Equal With Operations II](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/description/)
+
+
+
+
+### add digits 
+```cpp
+int addDigits(int num) {
+        while(num >= 10){ 
+            int n = num ;
+            int sum = 0 ;
+            while(n != 0){
+                int dig = n % 10;
+                n = n / 10;
+                sum += dig ; 
+            }
+            num = sum ;    
+        }
+    return num ;
+}
+```
+
+#### We can optimize this using the Digital Root property
+
+The repeated sum of digits of a number (its digital root) is determined by the number modulo 9, which causes the result to repeat in a cycle of 1 through 9.
+
+```cpp
+int addDigits(int num) {
+    if(num == 0) return 0;   // 1 + (-1 % 9) so, handling 0 here
+    return 1 + (num - 1) % 9;  //(num - 1) is adjustting the multiple of 9 , 1 + (567) % 9 gives 0 , 1 + (567 - 1) % 9 gines 1 + 8 = 9
+}
+```
+
+💡**Fun fact :**
+* This property is used in error detection in ancient math called "casting out nines.
+* it’s a quick verification trick, not a proof.
+* works for addition, subtraction, and multiplication because all of them preserve the mod 9 property.
+- [example](https://chatgpt.com/s/t_69ad3acc5bb0819180638bac59a3a53b)
+
 
 
 ### basic maths codes 
@@ -17,8 +125,8 @@
 - [231. Power of Two](https://leetcode.com/problems/power-of-two/) bit / math
 - [342. Power of Four](https://leetcode.com/problems/power-of-four/) math + bit
 - [367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) binary search / math
-- [400. Nth Digit]() number pattern
-- [172. Factorial Trailing Zeroes]() count 5s
+- [400. Nth Digit](https://leetcode.com/problems/nth-digit/) number pattern
+- [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) count 5s
 - [1006. clumsy factorial](https://leetcode.com/problems/clumsy-factorial/)
 - [258. Add Digits](https://leetcode.com/problems/add-digits/) 
 - [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
@@ -195,87 +303,13 @@ int temp = n;
     return true;
 ```
 
-
-
-
-
-
-
-### recursion 
-
-### hashing 
-
-### sorting 
-- [75. sort colors](https://leetcode.com/problems/sort-colors/description/)
-
-### searching 
-
-### arrays 
-- [1. two sum](https://leetcode.com/problems/two-sum/description/)
-
-
-### binary search
-- [704. binary search](https://leetcode.com/problems/binary-search/description/)
-- [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/submissions/1954434965/)
-- [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)
-
-
-### string
-
-
-## streaks questions
-
-- [1980. find unique binary string](https://chatgpt.com/s/t_69ad3e966dc48191af5410b3d3608058)
-- [3130. find all possible stable binary array ii](https://chatgpt.com/s/t_69b021b15d54819195784b507ebf560a)
-- [1878. gets the biggest rohmbus sum](https://chatgpt.com/s/t_69b803f127d8819188553008dc509628)
-- [1727. largest submatrix with rearrangment](https://chatgpt.com/s/t_69b9ed0cf6348191a49263b11d337d44)
-- [3070. count submatrix with top left-element and sum less than k](https://chatgpt.com/s/t_69b9ee014e3c81918637a3cb9c5f18c2)
-- [3212. Count Submatrices With Equal Frequency of X and Y](https://chatgpt.com/s/t_69bc10b88f2c81919d927e722c8cb5fb)
-- [3567. Minimum Absolute Difference in Sliding Submatrix](https://chatgpt.com/s/t_69bd5f2ba50c81918ca7a8b0c46ace83)
-- [3643. Flip Square Submatrix Vertically](https://chatgpt.com/s/t_69be6658ba94819189db2b37c201ca07)
-- [1886. Determine Whether Matrix Can Be Obtained By Rotation](https://chatgpt.com/s/t_69bfc45d620c8191a6fe190131d2dcac)
-- [1594. Maximum Non Negative Product in a Matrix](https://chatgpt.com/s/t_69c08d2db74c8191ac5a8ac6f04970b5)
-- [2906. Construct Product Matrix](https://chatgpt.com/s/t_69c1db28a25c8191b9b3fb657810728c)
-- [3546. Equal Sum Grid Partition I](https://chatgpt.com/s/t_69c4058e503481919a321a9e750a33fa)
-- [3548. Equal Sum Grid Partition II](https://leetcode.com/problems/equal-sum-grid-partition-ii/submissions/1959530630/?envType=daily-question&envId=2026-03-26)
-- [2946. Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/description/?envType=daily-question&envId=2026-03-27)
-
-
-
-
-### add digits 
-```cpp
-int addDigits(int num) {
-        while(num >= 10){ 
-            int n = num ;
-            int sum = 0 ;
-            while(n != 0){
-                int dig = n % 10;
-                n = n / 10;
-                sum += dig ; 
-            }
-            num = sum ;    
-        }
-    return num ;
-}
-```
-
-#### We can optimize this using the Digital Root property
-
-The repeated sum of digits of a number (its digital root) is determined by the number modulo 9, which causes the result to repeat in a cycle of 1 through 9.
+## factorial trailing zeroes 
 
 ```cpp
-int addDigits(int num) {
-    if(num == 0) return 0;   // 1 + (-1 % 9) so, handling 0 here
-    return 1 + (num - 1) % 9;  //(num - 1) is adjustting the multiple of 9 , 1 + (567) % 9 gives 0 , 1 + (567 - 1) % 9 gines 1 + 8 = 9
+int count = 0;
+while(n > 0){
+    n /= 5;
+    count += n;
 }
+return count;
 ```
-
-💡**Fun fact :**
-* This property is used in error detection in ancient math called "casting out nines.
-* it’s a quick verification trick, not a proof.
-* works for addition, subtraction, and multiplication because all of them preserve the mod 9 property.
-- [example](https://chatgpt.com/s/t_69ad3acc5bb0819180638bac59a3a53b)
-
-
-
