@@ -14,7 +14,6 @@
 - [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 - [231. Power of Two](https://leetcode.com/problems/power-of-two/)
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
-- [21. Merge Two Sorted Lists]()
 - [104. Maximum Depth of Binary Tree]()
 - [344. Reverse String]()
 - [100. Same Tree]()
@@ -52,6 +51,17 @@ reverse(rev.begin(), rev.end());
 
 
 ### string
+
+- [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+* [1021. Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)
+* [1903. Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)
+* [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+* [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
+* [Rotate String](https://leetcode.com/problems/rotate-string/)
+* [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+* [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
+* [Count Number of Substrings](https://leetcode.com/problems/count-substrings/)
+
 
 
 ## streaks questions
