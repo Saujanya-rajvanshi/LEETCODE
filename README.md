@@ -13,7 +13,7 @@
 - [9. Palindrome Number](https://leetcode.com/search/?q=palindrom+number+)
 - [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 - [231. Power of Two](https://leetcode.com/problems/power-of-two/)
-- [70. Climbing Stairs]()
+- [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 - [21. Merge Two Sorted Lists]()
 - [104. Maximum Depth of Binary Tree]()
 - [344. Reverse String]()
