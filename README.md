@@ -5,31 +5,7 @@
 ## questions solved
 - [basic maths codes](#basic-maths-codes)
 - [recursion](#recursion)
-
-
-
-### recursion 
-
-* try to represent the problem in terms of index
-* do all posible stuffs on that and index to that problem statment
-* sum of all stuffs -> count ways
-* min of all ways ->find min , for max -> max
-
-- [9. Palindrome Number](https://leetcode.com/search/?q=palindrom+number+)
-- [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
-- [231. Power of Two](https://leetcode.com/problems/power-of-two/)
-- [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
-- [344. Reverse String](https://leetcode.com/problems/reverse-string/description/)
-
-
-## Palindrome Number
-
-```cpp
-if (x < 0) return false;       
-string s = to_string(x);
-string rev = s;
-reverse(rev.begin(), rev.end());
-```
+- [hashing](#hashing)
 
 
 
@@ -344,3 +320,27 @@ while(n > 0){
 }
 return count;
 ```
+
+### recursion 
+
+* try to represent the problem in terms of index
+* do all posible stuffs on that and index to that problem statment
+* sum of all stuffs -> count ways
+* min of all ways ->find min , for max -> max
+
+- [9. Palindrome Number](https://leetcode.com/search/?q=palindrom+number+)
+- [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
+- [231. Power of Two](https://leetcode.com/problems/power-of-two/)
+- [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [344. Reverse String](https://leetcode.com/problems/reverse-string/description/)
+
+
+## Palindrome Number
+
+```cpp
+if (x < 0) return false;       
+string s = to_string(x);
+string rev = s;
+reverse(rev.begin(), rev.end());
+```
+
