@@ -10,13 +10,16 @@
 
 ### recursion 
 
+* try to represent the problem in terms of index
+* do all posible stuffs on that and index to that problem statment
+* sum of all stuffs -> count ways
+* min of all ways ->find min , for max -> max
+
 - [9. Palindrome Number](https://leetcode.com/search/?q=palindrom+number+)
 - [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 - [231. Power of Two](https://leetcode.com/problems/power-of-two/)
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
-- [104. Maximum Depth of Binary Tree]()
-- [344. Reverse String]()
-- [100. Same Tree]()
+- [344. Reverse String](https://leetcode.com/problems/reverse-string/description/)
 
 
 ## Palindrome Number
@@ -31,9 +34,25 @@ reverse(rev.begin(), rev.end());
 
 
 
-
-
 ### hashing 
+
+* [1. Two Sum](https://leetcode.com/problems/two-sum/)
+* [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+* [219. Contains Duplicate II]()
+* [242. Valid Anagram]()
+* [349. Intersection of Two Arrays]()
+* [387. First Unique Character in a String]()
+* [383. Ransom Note]()
+* [205. Isomorphic Strings]()
+* [290. Word Pattern]()
+* [202. Happy Number]()
+* [128. Longest Consecutive Sequence]() ⭐
+* [560. Subarray Sum Equals K]() ⭐
+* [49. Group Anagrams]() ⭐
+* [347. Top K Frequent Elements]()
+* [3. Longest Substring Without Repeating Characters]()
+
+
 
 ### sorting 
 - [75. sort colors](https://leetcode.com/problems/sort-colors/description/)
