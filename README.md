@@ -14,19 +14,56 @@
 
 * [1. Two Sum](https://leetcode.com/problems/two-sum/)
 * [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
-* [219. Contains Duplicate II]()
-* [242. Valid Anagram]()
-* [349. Intersection of Two Arrays]()
-* [387. First Unique Character in a String]()
-* [383. Ransom Note]()
-* [205. Isomorphic Strings]()
-* [290. Word Pattern]()
-* [202. Happy Number]()
+* [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)
+* [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
+* [202. Happy Number](https://leetcode.com/problems/happy-number/description/)
 * [128. Longest Consecutive Sequence]() ⭐
 * [560. Subarray Sum Equals K]() ⭐
 * [49. Group Anagrams]() ⭐
 * [347. Top K Frequent Elements]()
 * [3. Longest Substring Without Repeating Characters]()
+
+## Intersection of Two Arrays
+
+```cpp
+class Solution {
+public:
+    vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
+        unordered_set<int> s(nums1.begin(), nums1.end());
+        vector<int> v;
+
+        for(int x : nums2) {
+            if(s.count(x)) {
+                v.push_back(x);
+                s.erase(x); // avoid duplicates
+            }
+        }
+        return v;
+    }
+};
+```
+```cpp
+class Solution {
+public:
+    vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
+        unordered_set<int> s(nums1.begin(), nums1.end());
+        unordered_set<int> res;
+
+        for(int x : nums2) {
+            if(s.count(x)) {
+                res.insert(x);
+            }
+        }
+
+        return vector<int>(res.begin(), res.end());
+    }
+};
+```
+
+
+
+
+
 
 
 
@@ -56,7 +93,10 @@
 * [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 * [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
 * [Count Number of Substrings](https://leetcode.com/problems/count-substrings/)
-
+* [387. First Unique Character in a String]()
+* [383. Ransom Note]()
+* [205. Isomorphic Strings]()
+* [290. Word Pattern]()
 
 
 ## streaks questions
