@@ -183,6 +183,20 @@ int addDigits(int num) {
 - [202. Happy Number](https://leetcode.com/problems/happy-number/)
 
 
+### short forms
+* reverse string
+```cpp
+        string s = to_string(x);
+        reverse(rev.begin(), rev.end());
+```
+
+* insert digit 
+```cpp
+        digits.insert(digits.begin(), 1);
+```
+
+### concept
+
 ## 1. DIGIT MANIPULATION 
 
 ### Concepts:
