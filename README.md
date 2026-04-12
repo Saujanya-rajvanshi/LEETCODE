@@ -2,12 +2,13 @@
 
 - [leetcode](https://leetcode.com/)
 
-## questions solved
+## DSA
 - [basic maths codes](#basic-maths-codes)
 - [recursion](#recursion)
 - [hashing](#hashing)
 
-
+## Opperating System 
+- [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) -[explanation](https://chatgpt.com/s/t_69db43196ce481918236fee67dd91454)
 
 
 ### hashing 
