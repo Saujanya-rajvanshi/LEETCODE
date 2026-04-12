@@ -8,8 +8,9 @@
 - [hashing](#hashing)
 
 ## Opperating System 
-- [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)  -[$       explanation](https://chatgpt.com/s/t_69db43196ce481918236fee67dd91454)
-
+- [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)  -[explanation](https://chatgpt.com/s/t_69db43196ce481918236fee67dd91454)
+- [1834. Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/description/) -[explanation](https://chatgpt.com/s/t_69db44439bb48191944d843d171ebe5e)
+- [355. Design Twitter](https://leetcode.com/problems/design-twitter/) -[explanation](https://chatgpt.com/s/t_69db45e1f43c81918f5862ab16891172)
 
 ### hashing 
 
