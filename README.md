@@ -8,7 +8,7 @@
 - [hashing](#hashing)
 
 ## Opperating System 
-- [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)      -[ $ explanation](https://chatgpt.com/s/t_69db43196ce481918236fee67dd91454)
+- [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)  -[       explanation](https://chatgpt.com/s/t_69db43196ce481918236fee67dd91454)
 
 
 ### hashing 
